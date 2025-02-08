@@ -1,0 +1,1 @@
+gcc -o bootloader.efi bootloader.c -nostdlib -e efi_main -Wl,--subsystem,10
